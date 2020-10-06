@@ -1,1 +1,1 @@
-Assignment in progress to make aregistration record and report card!
+Assignment in progress to make a registration record and report card!
