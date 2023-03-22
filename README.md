@@ -1,1 +1,4 @@
-Assignment in progress to make a registration record and report card!
+### Beginner projects in Kwagei Innovators Training Liberia 
+Assignment to build
+1. Registration form
+2. Report card
