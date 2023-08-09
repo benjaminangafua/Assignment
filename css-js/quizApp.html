@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="./quiz.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="range-container">
+            <input type="range" name="score" id="range" min="0" value="2" max="10">
+        </div>
+        <div class="question">
+            <div class="question-head">
+                <div class="question-title">
+                    <div id="question-number">Question <span id="q-num">1</span></div>
+                    <div id="sound">🔊</div>
+                </div>
+                <p id="txt"></p>
+            </div>
+            <div id="opts"></div>
+        </div>
+        <div class="navigate">
+            <button id="prev" onclick="previousQuestion()">Previous</button>
+            <button id="nxt" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>

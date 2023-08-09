@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#quote {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #eee;
+    margin-inline: clamp(2rem, 4vw, 10%);
+    margin-block: 5% 2%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+img {
+    width: 5rem;
+    height: auto;
+}
+
+#quote>*:nth-child(1) {
+    display: grid;
+    place-self: center end;
+}
+
+#quote>*:nth-child(2) {
+    display: grid;
+    place-content: center start;
+    /* width: 60%; */
+}
+
+#text {
+    font-weight: 600;
+}
+
+#author {
+    margin-top: .9rem;
+    font-style: italic;
+    font-size: .9em;
+}
+
+#generate-quote {
+    position: relative;
+    background: #eee;
+    width: max-content;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 1rem;
+}

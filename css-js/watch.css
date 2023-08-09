@@ -1,0 +1,26 @@
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: max-content;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.time {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    justify-items: center;
+    margin: 1rem auto;
+    gap: 1rem;
+}
+
+.time>div {
+    background-color: aqua;
+    padding: 10px 20px;
+}

@@ -19,10 +19,12 @@ container.append(timer)
 
 /**Styling content */
 container.style = `
-margin: 20%;
+width: max-content;
+margin: auto;
 `
-console.log(setTimeout(get(),5000))
-function get(){
-    for(let i = 0; i< 5; i++)
+
+function get() {
+    for (let i = 0; i < 5; i++)
         console.log(i)
 }
+console.log(setTimeout(get(), 5000))
