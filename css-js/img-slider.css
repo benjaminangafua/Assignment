@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+
+.arrows>img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.arrows>* {
+    position: absolute;
+    top: 50%;
+}
+
+.arrows>:last-child {
+    right: 0;
+}

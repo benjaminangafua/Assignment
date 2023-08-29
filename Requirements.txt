@@ -1,0 +1,20 @@
+# Stopwatch Requirement
+-[] When Start button is clicked
+    -[] Millisecond starts to increment
+        -[] When millisecond goes from 1 - 1000
+            -[] Second increments by 1
+    -[] When second reaches to 60
+        -[] Minutes increments by 1
+-[] When Pause button is clicked
+    -[] $[Millisecond, Second, Minutes] stops incrementing
+
+-[] When Restart button is clicked
+    -[] $[Millisecond, Second, Minutes] get set to 0
+
+# Image Slider
+-[] Store an array of images
+    -[] the image href
+    -[] the image content
+-[] The image slides
+    -[] after 2 seconds the image should slide by itself
+    -[] When an arrow is clicked the image should slide
